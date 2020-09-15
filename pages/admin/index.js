@@ -12,9 +12,9 @@ import { getBookList } from '../../lib/api/admin';
 const Index = ({ books }) => (
   <div style={{ padding: '10px 45px' }}>
     <div>
-      <h2>Books</h2>
+      <h2>Stories</h2>
       <Link href="/admin/add-book">
-        <Button variant="contained">Add book</Button>
+        <Button variant="contained">Add story</Button>
       </Link>
       <p />
       <ul>
