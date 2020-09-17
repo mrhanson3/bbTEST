@@ -45,6 +45,7 @@
     "qs": "6.9.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-player": "^2.6.2",
     "react-stripe-checkout": "2.6.3",
     "sitemap": "6.2.0",
     "stripe": "8.89.0",

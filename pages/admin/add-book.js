@@ -2,6 +2,7 @@ import React from 'react';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
+
 import withAuth from '../../lib/withAuth';
 import EditBook from '../../components/admin/EditBook';
 import { addBook, syncBookContent } from '../../lib/api/admin';
@@ -34,6 +35,7 @@ class AddBook extends React.Component {
     return (
       <div style={{ padding: '10px 45px' }}>
         <EditBook onSave={this.addBookOnSave} />
+
       </div>
     );
   }
