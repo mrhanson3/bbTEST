@@ -22,7 +22,7 @@ class Index extends React.Component {
     return (
       <div style={{ padding: '10px 45px' }}>
         <Head>
-          <title>Settings</title>
+          <title>Index</title>
           <meta name="description" content="List of purchased books." />
         </Head>
         <p>List of purchased books</p>
