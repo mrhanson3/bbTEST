@@ -62,6 +62,9 @@ class MyBooks extends React.Component {
             <div>
               <h3>Your purchases</h3>
               <p>You have not purchased anything, yet.</p>
+              <Link as={`books/dummy-1/introduction`} href={`books/dummy-1/introduction`}>
+                <a>dummy-1</a>
+              </Link>
             </div>
           )}
         </div>
