@@ -20,11 +20,11 @@ function Login({ router }) {
   return (
     <div style={{ textAlign: 'center', margin: '0 20px' }}>
       <Head>
-        <title>Log in to Builder Book</title>
+        <title>Log in to Clayton Does Things</title>
         <meta name="description" content="Login page for https://claytondoesthings.herokuapp.com" />
       </Head>
       <br />
-      <p style={{ margin: '45px auto', fontSize: '44px', fontWeight: '400' }}>Log in</p>
+      <p style={{ margin: '45px auto', fontSize: '44px', fontWeight: '400' }}>Log-in to Clayton Does Things</p>
       <p>You’ll be logged in for 14 days unless you log out manually.</p>
       <br />
       <Button

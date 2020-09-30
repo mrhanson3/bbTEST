@@ -60,8 +60,8 @@ class MyBooks extends React.Component {
             </div>
           ) : (
             <div>
-              <h3>Your books</h3>
-              <p>You have not purchased any book.</p>
+              <h3>Your purchases</h3>
+              <p>You have not purchased anything, yet.</p>
             </div>
           )}
         </div>
