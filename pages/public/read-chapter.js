@@ -289,7 +289,7 @@ class ReadChapter extends React.Component {
         }}
       >
         <p style={{ padding: '0px 40px', fontSize: '17px', fontWeight: '400' }}>{book.name}</p>
-        <ol start="0" style={{ padding: '0 25', fontSize: '14px', fontWeight: '300' }}>
+        <ol start="0" style={{ padding: '0 25', fontSize: '14px', fontWeight: '500' }}>
           {chapters.map((ch, i) => (
             <li
               key={ch._id}

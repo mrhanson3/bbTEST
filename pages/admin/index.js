@@ -9,6 +9,8 @@ import notify from '../../lib/notifier';
 import withAuth from '../../lib/withAuth';
 import { getBookList } from '../../lib/api/admin';
 
+import theme from '../../lib/theme';
+
 const Index = ({ books }) => (
   <div style={{ padding: '10px 45px' }}>
     <div>

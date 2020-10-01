@@ -18,7 +18,7 @@ const styleLoginButton = {
   borderRadius: '2px',
   textTransform: 'none',
   font: '16px',
-  fontWeight: '400',
+  fontWeight: '500',
   letterSpacing: '0.01em',
   color: 'white',
   backgroundColor: '#DF4930',
@@ -27,7 +27,7 @@ const styleLoginButton = {
 const styleTextField = {
   font: '15px',
   color: '#222',
-  fontWeight: '300',
+  fontWeight: '500',
 };
 
 const styleForm = {
@@ -39,7 +39,7 @@ const styleGrid = {
   margin: '0px auto',
   font: '16px',
   color: '#222',
-  fontWeight: '300',
+  fontWeight: '500',
   lineHeight: '1.5em',
 };
 

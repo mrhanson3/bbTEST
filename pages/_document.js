@@ -52,11 +52,12 @@ class MyDocument extends Document {
           />
           <link
             rel="shortcut icon"
-            href="https://storage.googleapis.com/builderbook/favicon32.png"
+            href="https://mrhanson3.github.io/img/moonman.jpg"
+            //I got rid of their icon, but mine isn't working. Theirs was .png.
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400:latin"
+            href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap"
           />
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
           <link
@@ -67,8 +68,8 @@ class MyDocument extends Document {
           <style>
             {`
               a, a:focus {
-                font-weight: 400;
-                color: #1565C0;
+                font-weight: 500;
+                color: #240C73;
                 text-decoration: none;
                 outline: none
               }
@@ -118,7 +119,7 @@ class MyDocument extends Document {
             font: '16px Roboto',
             color: '#222',
             margin: '0px auto',
-            fontWeight: '300',
+            fontWeight: '500',
             lineHeight: '1.5em',
             backgroundColor: '#F7F9FC',
             minHeight: '100%',
