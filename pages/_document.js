@@ -38,18 +38,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />{' '}
           <meta name="google" content="notranslate" />
           <meta name="theme-color" content="#1976D2" />
-          <meta
-            httpEquiv="Content-Security-Policy"
-            content="
-            default-src 'self' 'unsafe-inline'
-            *.googleapis.com
-            *.gstatic.com
-            *.googleusercontent.com
-            *.amazonaws.com
-            *.stripe.com;
-            *.googletagmanager.com;
-          "
-          />
+          
           <link
             rel="shortcut icon"
             href="https://mrhanson3.github.io/img/moonman.jpg"
