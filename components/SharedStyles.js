@@ -9,7 +9,7 @@ const styleRaisedButton = {
 };
 
 const styleToolbar = {
-  background: '#FFF',
+  background: '#FFF6e3',
   height: '64px',
   paddingRight: '20px',
 };

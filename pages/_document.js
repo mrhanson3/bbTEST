@@ -69,7 +69,7 @@ class MyDocument extends Document {
             {`
               a, a:focus {
                 font-weight: 500;
-                color: #240C73;
+                color: #C64B1F;
                 text-decoration: none;
                 outline: none
               }
@@ -86,14 +86,14 @@ class MyDocument extends Document {
                 display:block;
                 overflow-x:auto;
                 padding:0.5em;
-                background:#FFF;
+                background:#55AB60;
                 color: #000;
                 border: 1px solid #ddd;
                 font-size: 14px;
               }
               code {
                 font-size: 14px;
-                background: #FFF;
+                background: #55AB60;
               }
             `}
           </style>
@@ -117,11 +117,11 @@ class MyDocument extends Document {
         <body
           style={{
             font: '16px Roboto',
-            color: '#222',
+            color: '#154a61',
             margin: '0px auto',
             fontWeight: '500',
             lineHeight: '1.5em',
-            backgroundColor: '#F7F9FC',
+            backgroundColor: '#FFF',
             minHeight: '100%',
           }}
         >
