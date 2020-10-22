@@ -38,10 +38,10 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />{' '}
           <meta name="google" content="notranslate" />
           <meta name="theme-color" content="#1976D2" />
-          
+
           <link
             rel="shortcut icon"
-            href="https://mrhanson3.github.io/img/moonman.jpg"
+            href="https://mrhanson3.github.io/img/128moonman.jpg"
             //I got rid of their icon, but mine isn't working. Theirs was .png.
           />
           <link
