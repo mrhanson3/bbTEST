@@ -26,9 +26,6 @@ class Index extends React.Component {
           <title>Index</title>
           <meta name="description" content="List of purchased books." />
         </Head>
-        <div>
-             <img src="https://mrhanson3.github.io/img/weelogo.jpg" alt="Moonman Logo" />
-        </div>
         <p>
           Email:&nbsp;
           {user.email}

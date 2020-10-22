@@ -20,7 +20,7 @@ function Login({ router }) {
   return (
     <div style={{ textAlign: 'center', margin: '0 20px' }}>
       <Head>
-        <title>Log in to Clayton Does Things</title>
+        <title>Log-in</title>
         <meta name="description" content="Login page for https://claytondoesthings.herokuapp.com" />
       </Head>
       <br />
@@ -33,11 +33,11 @@ function Login({ router }) {
         href={`/auth/google?redirectUrl=${redirectUrl}`}
       >
         <img
-          src="http://moonshot.industries/assets/img/moonman.jpg"
-          alt="Log in with Google"
+          src=""
+          alt="Log-in with Google"
           style={{ marginRight: '10px' }}
         />
-        Log in with Google
+
       </Button>
     </div>
   );
