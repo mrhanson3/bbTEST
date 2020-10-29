@@ -11,14 +11,14 @@ import MenuDrop from './MenuDrop';
 import { styleToolbar, styleRaisedButton } from './SharedStyles';
 
 const optionsMenuCustomer = [
+    {
+      text: 'Home',
+      href: '/index',
+    },
   {
     text: 'My books',
     href: '/customer/my-books',
     as: '/my-books',
-  },
-  {
-    text: 'Home',
-    href: '/index',
   },
   {
     text: 'Log out',
