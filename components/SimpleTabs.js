@@ -73,7 +73,8 @@ function SimpleTabs() {
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Team records" {...a11yProps(0)} />
           <Tab label="Over/Under" {...a11yProps(1)} />
-          <Tab label="Gambling by team" {...a11yProps(2)} />
+          <Tab label="Winnings by team" {...a11yProps(2)} />
+          <Tab label="Losses by team" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -90,6 +91,11 @@ function SimpleTabs() {
       <p>Yes, I clearly bet on the good teams, but only a clown would put money on a losing team. For an example of my clownsmenship, take a look at how much the Bengals have cost me. </p>
       <iframe src="https://public.tableau.com/views/NFL2020/ByTeam?:language=en&:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
   width="1000px" height="630px"></iframe>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+      <p>I clearly bet against bad teams, but some teams just kill me. I've lost money on the Colts when I've bet against them and when I've bet them to win, so I'm done with them this year.</p>
+      <iframe src="https://public.tableau.com/views/NFL2020/Teamsbetagainst?:language=en&:display_count=y&publish=yes&:origin=viz_share_link?:showVizHome=no&:embed=true"
+  width="1000px" height="730px"></iframe>
       </TabPanel>
     </div>
   );

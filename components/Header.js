@@ -17,6 +17,10 @@ const optionsMenuCustomer = [
     as: '/my-books',
   },
   {
+    text: 'Home',
+    href: '/index',
+  },
+  {
     text: 'Log out',
     href: '/logout',
   },
@@ -26,6 +30,10 @@ const optionsMenuAdmin = [
   {
     text: 'Admin',
     href: '/admin',
+  },
+  {
+    text: 'Home',
+    href: '/index',
   },
   {
     text: 'Log out',
@@ -52,7 +60,7 @@ function Header({ user, hideHeader, redirectUrl }) {
             {!user ? (
               <Link href="/">
                 <Avatar
-                  src="https://mrhanson3.github.io/img/weelogo.jpg"
+                  src="https://mrhanson3.github.io/img/128moonman.jpg"
                   alt="MoonShot Industries logo"
                   style={{ margin: '0px auto 0px 20px', cursor: 'pointer' }}
                 />
