@@ -37,10 +37,9 @@ class Index extends React.Component {
           {user.email}
         </p>
         <div>
-          <h3>Some stories</h3>
-          <Link href={`/gambling`}>
-            <a>Gambling on the 2020 NFL season</a>
-            </Link>
+          <SimpleTabs>
+          </SimpleTabs>
+
         </div>
       </div>
     );
