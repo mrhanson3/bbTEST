@@ -9,8 +9,7 @@ import Link from 'next/link';
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
-    maxWidth: 275,
+    minWidth: 200,
   },
   bullet: {
     display: 'inline-block',
@@ -23,6 +22,7 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+
 });
 
 function GamblingCard() {
