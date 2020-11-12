@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 200,
+    minWidth: "",
   },
   bullet: {
     display: 'inline-block',
@@ -37,7 +37,7 @@ function GamblingCard() {
          Gambling
         </Typography>
         <Typography variant="h5" component="h2">
-          Gambling on the 2020 NFL season
+          2020 NFL season gambling
         </Typography>
         <Typography variant="body2" component="p">
           I try, and probably fail, to beat the sportbooks.

@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import SimpleTabs from '../components/SimpleTabs';
 import GamblingCard from '../components/GamblingCard';
-import CenteredGrid from '../components/CenteredGrid';
+import IndexGrid from '../components/IndexGrid';
 
 
 import withAuth from '../lib/withAuth';
@@ -40,8 +40,8 @@ class Index extends React.Component {
           {user.email}
         </p>
         <div>
-            <CenteredGrid>
-            </CenteredGrid>
+            <IndexGrid>
+            </IndexGrid>
         </div>
         <div>
 
