@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import GamblingCard from './GamblingCard';
-import BreadCard from './BreadCard';
+import MISunrise from './MISunrise';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,13 +22,14 @@ function IndexGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={3}>
-          <Paper className={classes.paper} elevation={3}>Updated 11/2/20<GamblingCard>
+        <Grid item xs={5}>
+          <Paper className={classes.paper} elevation={3}>11/2/20<GamblingCard>
           </GamblingCard>
           </Paper>
         </Grid>
-        <Grid item xs={4}>
-          <Paper className={classes.paper} elevation={3}>Updated 11/11/20<BreadCard></BreadCard></Paper>
+        <Grid item xs={7}>
+          <Paper className={classes.paper} elevation={3}><p>11/12/20</p> A rainy sunrise at Crystal Lake, Michigan<MISunrise></MISunrise>
+          </Paper>
         </Grid>
         <Grid item xs={3}>
           <Paper className={classes.paper} elevation={3}>xs=3</Paper>

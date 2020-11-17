@@ -84,7 +84,7 @@ function GamblingTabs() {
       <p>And like last year, I do realize that there are a lot of major corporations who make a ton of money on people betting on the NFL. I'm sure they use huge databases and measure a ton of variables that I don't know about, so that should be interesting.</p>
       <p>Along with the moneyline and spread bets, I have made some over/under bets, which is where there's a set number of points that the teams will combine to score, like 48.5 and you bet on whether the combined score will be under or over 48.5. Oddsmakers use the half point so that there isn't a chance of a tie.</p>
       <p>Click on a team on the left to see how I'm doing this year and how teams are doing against the spread.</p>
-      <iframe src="https://public.tableau.com/views/NFL2020/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
+      <iframe src="https://public.tableau.com/views/NFL2020_16007684542270/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link?:showVizHome=no&:embed=true"
   width="1000px" height="650px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
