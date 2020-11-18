@@ -6,7 +6,7 @@ function MISunrise() {
     <div>
       <ReactPlayer
         url="https://vimeo.com/454145135"
-        controls={`true`}
+        controls={true}
         width={`100%`}
       />
     </div>

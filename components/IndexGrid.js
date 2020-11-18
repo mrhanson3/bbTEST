@@ -22,12 +22,12 @@ function IndexGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={5}>
+        <Grid item xs={12} sm={4}>
           <Paper className={classes.paper} elevation={3}>11/2/20<GamblingCard>
           </GamblingCard>
           </Paper>
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={12} sm={8}>
           <Paper className={classes.paper} elevation={3}><p>11/12/20</p> A rainy sunrise at Crystal Lake, Michigan<MISunrise></MISunrise>
           </Paper>
         </Grid>
