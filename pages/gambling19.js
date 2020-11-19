@@ -38,8 +38,9 @@ class Index extends React.Component {
           {user.email}
         </p>
         <div>
-            <IndexGrid>
-            </IndexGrid>
+        <p>Every so often I think that I can make money while gambling on the NFL, so now I'm going to see if that's true or if I would have been better off just putting my money into my savings account. I'm going to record all of my bets here and you can follow along to see how things go.</p>
+        <iframe src="https://public.tableau.com/shared/GQBNBXSPG?:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
+    width="1000px" height="1050px"></iframe>
         </div>
         <div>
 

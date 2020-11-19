@@ -7,8 +7,6 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
-
-
 const propTypes = {
   user: PropTypes.shape({
     displayName: PropTypes.string,
@@ -76,7 +74,8 @@ function GamblingTabs() {
           <Tab label="Team records" {...a11yProps(0)} />
           <Tab label="Over/Under" {...a11yProps(1)} />
           <Tab label="Winnings by team" {...a11yProps(2)} />
-          <Tab label="Losses by team" {...a11yProps(2)} />
+          <Tab label="Losses by team" {...a11yProps(3)} />
+          <Tab label="All the bets" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -101,6 +100,11 @@ function GamblingTabs() {
       <p>I clearly bet against bad teams, but some teams just kill me. I've lost money on the Colts when I've bet against them and when I've bet them to win, so I'm done with them this year.</p>
       <iframe src="https://public.tableau.com/views/NFL2020/Teamsbetagainst?:language=en&:display_count=y&publish=yes&:origin=viz_share_link?:showVizHome=no&:embed=true"
   width="1000px" height="730px"></iframe>
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+      <p>Here are all the bets I have made. At the bottom you can see the tabs, that include the Futures bets, the bets on Over/Under and how I'm tracking teams by week.</p>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7k2BtQ67e5TKMEmKBUza0pqEodKNVBejXni5J0v7jLM0S5yQBadxMKe2t_KoUEqkEMux6dNY2vbEe/pubhtml?widget=true&amp;headers=false"
+      width="1000px" height="730px"></iframe>
       </TabPanel>
     </div>
   );

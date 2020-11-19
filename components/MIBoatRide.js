@@ -24,7 +24,7 @@ const useStyles = makeStyles({
 
 });
 
-function MISunrise() {
+function MIBoatRide() {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
   return (
@@ -34,14 +34,14 @@ function MISunrise() {
            Video
           </Typography>
           <Typography variant="h5" component="h2">
-            A rainy sunrise at Crystal Lake, Michigan
+            A boat ride on Crystal Lake, Michigan
           </Typography>
           <Typography variant="body2" component="p">
           </Typography>
         </CardContent>
         <div>
           <ReactPlayer
-            url="https://vimeo.com/454145135"
+            url="https://vimeo.com/454127948"
             controls={true}
             width={`100%`}
           />
@@ -51,4 +51,4 @@ function MISunrise() {
   )
 }
 
-export default MISunrise;
+export default MIBoatRide;

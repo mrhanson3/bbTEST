@@ -25,7 +25,7 @@ const useStyles = makeStyles({
 
 });
 
-function GamblingCard() {
+function GamblingCard19() {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
@@ -37,10 +37,10 @@ function GamblingCard() {
          Gambling
         </Typography>
         <Typography variant="h5" component="h2">
-          2020 NFL season gambling
+          2019 NFL season gambling
         </Typography>
         <Typography variant="body2" component="p">
-          This year I put $1,000 down to be on the NFL.
+          Last year I put $300 down to bet on the NFL.
         </Typography>
       </CardContent>
       <CardActions>
@@ -51,4 +51,4 @@ function GamblingCard() {
   );
 }
 
-export default GamblingCard;
+export default GamblingCard19;

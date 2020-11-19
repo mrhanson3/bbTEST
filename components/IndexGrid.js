@@ -3,7 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import GamblingCard from './GamblingCard';
+import GamblingCard19 from './GamblingCard19';
 import MISunrise from './MISunrise';
+import MIBoatRide from './MIBoatRide';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,19 +26,24 @@ function IndexGrid() {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper} elevation={3}>11/2/20<GamblingCard>
+          <Paper className={classes.paper} elevation={3}>Posted 11/2/20<GamblingCard>
           </GamblingCard>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={8}>
-          <Paper className={classes.paper} elevation={3}><p>11/12/20</p> A rainy sunrise at Crystal Lake, Michigan<MISunrise></MISunrise>
+        <Grid item xs={12} sm={4}>
+          <Paper className={classes.paper} elevation={3}>Posted 11/2/20<GamblingCard19>
+          </GamblingCard19></Paper>
+        </Grid>
+        <Grid item xs={12} sm={4}>
+          <Paper className={classes.paper} elevation={3}></Paper>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Paper className={classes.paper} elevation={3}>Posted 11/12/20<MISunrise></MISunrise>
           </Paper>
         </Grid>
-        <Grid item xs={3}>
-          <Paper className={classes.paper} elevation={3}>xs=3</Paper>
-        </Grid>
-        <Grid item xs={2}>
-          <Paper className={classes.paper} elevation={3}>xs=2</Paper>
+        <Grid item xs={12} sm={6}>
+          <Paper className={classes.paper} elevation={3}>Posted 11/16/20<MIBoatRide></MIBoatRide>
+          </Paper>
         </Grid>
       </Grid>
     </div>
