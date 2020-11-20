@@ -89,17 +89,17 @@ function GamblingTabs() {
       <TabPanel value={value} index={1}>
       <p>Over/Under bets are bets on the total score of the game. It's always seems like a random guessing game, but it's fun to watch.</p>
       <iframe src="https://public.tableau.com/views/NFL2020/OUResults?:language=en&:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
-  width="1000px" height="900px"></iframe>
+  width="1000px" height="930px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={2}>
       <p>Yes, I clearly bet on the good teams, but only a clown would put money on a losing team. For an example of my clownsmenship, take a look at how much the Bengals have cost me. </p>
       <iframe src="https://public.tableau.com/views/NFL2020/ByTeam?:language=en&:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
-  width="1000px" height="630px"></iframe>
+  width="1000px" height="680px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={3}>
       <p>I clearly bet against bad teams, but some teams just kill me. I've lost money on the Colts when I've bet against them and when I've bet them to win, so I'm done with them this year.</p>
       <iframe src="https://public.tableau.com/views/NFL2020/Teamsbetagainst?:language=en&:display_count=y&publish=yes&:origin=viz_share_link?:showVizHome=no&:embed=true"
-  width="1000px" height="730px"></iframe>
+  width="1000px" height="750px"></iframe>
       </TabPanel>
       <TabPanel value={value} index={4}>
       <p>Here are all the bets I have made. At the bottom you can see the tabs, that include the Futures bets, the bets on Over/Under and how I'm tracking teams by week.</p>
