@@ -30,7 +30,7 @@ function GamblingCard19() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Link href={`/gambling`}>
+    <Link href={`/gambling19`}>
     <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>

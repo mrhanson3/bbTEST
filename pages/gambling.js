@@ -7,7 +7,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import GamblingTabs from '../components/GamblingTabs';
+import GamblingTabs from '../components/GamblingTabs'
+
 
 import withAuth from '../lib/withAuth';
 
@@ -27,11 +28,15 @@ class Index extends React.Component {
   render() {
     const { user } = this.props;
     return (
+
       <div style={{ padding: '10px 45px' }}>
         <Head>
           <title>Index</title>
           <meta name="description" content="List of purchased books." />
         </Head>
+        <Link href="/">
+          <a>Home /</a>
+        </Link>
         <p>
           Email:&nbsp;
           {user.email}

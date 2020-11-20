@@ -33,6 +33,9 @@ class Index extends React.Component {
           <title>Index</title>
           <meta name="description" content="List of purchased books." />
         </Head>
+        <Link href="/">
+          <a>Home /</a>
+        </Link>
         <p>
           Email:&nbsp;
           {user.email}
