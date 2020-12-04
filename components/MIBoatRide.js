@@ -44,6 +44,7 @@ function MIBoatRide() {
             url="https://vimeo.com/454127948"
             controls={true}
             width={`100%`}
+            height={`260px`}
           />
         </div>
       </Card>
