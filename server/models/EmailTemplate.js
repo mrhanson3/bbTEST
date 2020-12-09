@@ -26,7 +26,7 @@ function insertTemplates() {
   const templates = [
     {
       name: 'welcome',
-      subject: 'Welcome to https://claytondoesthings.herokuapp.com',
+      subject: 'Welcome to Senseless Learning',
       message: `<%= userName %>,
         <p>
           At Builder Book, we are excited to help you build useful, production-ready web apps from scratch.
@@ -35,8 +35,7 @@ function insertTemplates() {
           See list of available books here.
         </p>
 
-        Kelly & Timur,
-        Team BB
+        Clayton
       `,
     },
     {
@@ -51,11 +50,10 @@ function insertTemplates() {
         </p>
         <p>
           If you have any questions while reading the book,
-          please fill out an issue on
-          <a href="https://github.com/builderbook/builderbook/issues" target="blank">Github</a>.
+          please email clayton@moonshot.industries.
         </p>
 
-        Kelly & Timur, Team Builder Book
+        Clayton
       `,
     },
   ];

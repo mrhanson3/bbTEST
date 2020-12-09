@@ -42,6 +42,7 @@ class Index extends React.Component {
           {user.email}
         </p>
         <div>
+        <p>These charts are best viewed using at least an iPad-sized screen. It's hard to see a lot of data on a phone screen.</p>
           <GamblingTabs>
           </GamblingTabs>
 

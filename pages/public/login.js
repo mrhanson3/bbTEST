@@ -37,8 +37,16 @@ function Login({ router }) {
           alt="Log-in with Google"
           style={{ marginRight: '10px' }}
         />
-
       </Button>
+      <h1> </h1>
+      <h3 style={{ textAlign: 'left', margin: '50px 0px 10px 20px' }}><b>Updated December 8, 2020</b>: Privacy Policy - Unlike some places, I'm not going to make you hunt for the privacy policy. </h3>
+      <ul>
+      <li><p style={{ textAlign: 'left', margin: '0 20px' }}><b>Why is there a log-in?</b> I may post fairly personal stuff on my site and I want to know who is looking at my content.</p></li>
+      <li><p style={{ textAlign: 'left', margin: '0 20px' }}><b>When I log-in using Google, what can you see about my account?</b> In this order, I can see the time and date you first logged-in, the email you used to log-in, the display name of the email, and the avatar that is associated with the email.</p></li>
+      <li><p style={{ textAlign: 'left', margin: '0 20px' }}><b>What else are you tracking?</b> Vimeo will track which videos are being watched and for how long, but there's no connection between the user and who watches the videos. I'm not using Google Analytics on the site.</p></li>
+      <li><p style={{ textAlign: 'left', margin: '0 20px' }}><b>Will you sell, rent, or lease my data?</b> Nope.</p></li>
+      <li><p style={{ textAlign: 'left', margin: '0 20px' }}><b>This seems too simple, will you have to add it this?</b> Probably, and if so, I'll add a date to when it was added so that you can always know you're reading the newest version.</p></li>
+      </ul>
     </div>
   );
 }

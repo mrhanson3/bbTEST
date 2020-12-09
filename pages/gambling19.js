@@ -23,7 +23,6 @@ const defaultProps = {
   user: null,
 };
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Index extends React.Component {
   render() {
     const { user } = this.props;
@@ -40,6 +39,8 @@ class Index extends React.Component {
           Email:&nbsp;
           {user.email}
         </p>
+        <p>These charts are best viewed using at least an iPad-sized screen. It's hard to see a lot of data on a phone screen</p>
+
         <div>
         <p>Every so often I think that I can make money while gambling on the NFL, so now I'm going to see if that's true or if I would have been better off just putting my money into my savings account. I'm going to record all of my bets here and you can follow along to see how things go.</p>
         <iframe src="https://public.tableau.com/shared/GQBNBXSPG?:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
