@@ -23,26 +23,31 @@ const defaultProps = {
   user: null,
 };
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Index extends React.Component {
   render() {
     const { user } = this.props;
     return (
       <div style={{ padding: '10px 45px' }}>
         <Head>
-          <title>Index</title>
-          <meta name="description" content="List of purchased books." />
+          <title>COVID Per 100k</title>
+          <meta name="description" content="Total Confirmed Coronavirus per 100k people, Mecklenburg County, North Carolina" />
         </Head>
-        <h3>This is going to be the catch all for things I remember, things I've learned and things I like.</h3>
+        <Link href="/">
+          <a>Home /</a>
+        </Link>
         <p>
           Email:&nbsp;
           {user.email}
         </p>
+        <p>I'm frequently asked about what I do, and this is one of the things. I get numbers from a data scientist and then I have to turn them into something that people can easily digest.</p>
+
         <div>
-            <IndexGrid>
-            </IndexGrid>
+        <p>I can admit that when we started building these graphs, I didn't think I would be updating them weekly for this long. I think I had a hard time grasping how long getting past the pandemic would take.</p>
+        <iframe src="https://public.tableau.com/views/CoronavirusCasesbyCountythrough41920/Cumulative67?:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
+    width="100%" height="800px"></iframe>
         </div>
         <div>
+
         </div>
       </div>
     );

@@ -29,6 +29,7 @@
     "express": "4.17.1",
     "express-session": "1.17.1",
     "front-matter": "4.0.2",
+    "google-map-react": "^2.1.9",
     "googleapis": "59.0.0",
     "handlebars": "4.7.6",
     "he": "1.2.0",

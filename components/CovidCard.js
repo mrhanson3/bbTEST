@@ -8,39 +8,34 @@ import Typography from '@material-ui/core/Typography';
 import Link from 'next/link';
 
 const useStyles = makeStyles({
-  root: {
-    minWidth: "",
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
+    root: {
+      minWidth: "",
+    },
+    media: {
+      height: 0,
+      paddingTop: '56.25%', // 16:9
+    },
+    title: {
+      fontSize: 14,
+    },
+  });
 
-});
-
-function GamblingCard19() {
+function CovidCard() {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Link href={`/gambling19`}>
+    <Link href={`/coronameck`}>
     <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-         Gambling
+         Charts
         </Typography>
         <Typography variant="h5" component="h2">
-          2019 NFL gambling
+          COVID Per 100k
         </Typography>
         <Typography variant="body2" component="p">
-          Last year I put down $300.
+          Here's a chart I made for work.
         </Typography>
       </CardContent>
       <CardActions>
@@ -51,4 +46,4 @@ function GamblingCard19() {
   );
 }
 
-export default GamblingCard19;
+export default CovidCard;

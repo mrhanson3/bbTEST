@@ -32,10 +32,10 @@ function GamblingCard() {
          Gambling
         </Typography>
         <Typography variant="h5" component="h2">
-          2020 NFL season gambling
+          2020 NFL gambling
         </Typography>
         <Typography variant="body2" component="p">
-          This year I put $1,000 down to be on the NFL.
+          This year I put down $1,000.
         </Typography>
       </CardContent>
       <CardActions>

@@ -34,7 +34,7 @@ function MISunrise() {
            Video
           </Typography>
           <Typography variant="h5" component="h2">
-            A rainy sunrise at Crystal Lake, Michigan
+            A rainy sunrise at Crystal Lake, MI
           </Typography>
           <Typography variant="body2" component="p">
           </Typography>
