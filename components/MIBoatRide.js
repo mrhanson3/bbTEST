@@ -34,7 +34,7 @@ function MIBoatRide() {
            Video
           </Typography>
           <Typography variant="h5" component="h2">
-            A boat ride on Crystal Lake, Michigan
+            A boat ride on Crystal Lake, MI
           </Typography>
           <Typography variant="body2" component="p">
           </Typography>
