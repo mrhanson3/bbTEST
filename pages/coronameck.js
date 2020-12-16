@@ -43,6 +43,7 @@ class Index extends React.Component {
 
         <div>
         <p>I can admit that when we started building these graphs, I didn't think I would be updating them weekly for this long. I think I had a hard time grasping how long getting past the pandemic would take.</p>
+        <p>You may have to scroll left to right to see the whole graph, which is unfortunate for the UX and the world.</p>
         <iframe src="https://public.tableau.com/views/CoronavirusCasesbyCountythrough41920/Cumulative67?:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
     width="100%" height="800px"></iframe>
         </div>
