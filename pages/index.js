@@ -42,8 +42,6 @@ class Index extends React.Component {
             <IndexGrid>
             </IndexGrid>
         </div>
-        <div>
-        </div>
       </div>
     );
   }
