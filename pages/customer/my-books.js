@@ -1,82 +1,66 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Head from 'next/head';
-import { getMyBookList } from '../../lib/api/customer';
+
+import Button from '@material-ui/core/Button';
+
+import notify from '../../lib/notifier';
+
 import withAuth from '../../lib/withAuth';
+import { getBookList } from '../../lib/api/admin';
+
+import theme from '../../lib/theme';
+
+const Index = ({ books }) => (
+  <div style={{ padding: '10px 45px' }}>
+    <div>
+      <h2>Stories</h2>
+      <Link href={`/index`}>
+      <p style={{backgroundColor: "khaki"; padding: "10px"}}>Hi. I'm still working out what to do with these user homepages, but until then, click here to check out some stuff I made.</p>
+      </Link>
+      <ul>
+        {books.map((b) => (
+          <li key={b._id}>
+            <Link as={`/admin/book-detail/${b.slug}`} href={`/admin/book-detail?slug=${b.slug}`}>
+              <a>{b.name}</a>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <br />
+    </div>
+  </div>
+);
 
 const propTypes = {
-  purchasedBooks: PropTypes.arrayOf(
+  books: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
+      slug: PropTypes.string.isRequired,
     }),
-  ),
+  ).isRequired,
 };
 
-const defaultProps = {
-  purchasedBooks: [],
-};
+Index.propTypes = propTypes;
 
-class MyBooks extends React.Component {
-  static async getInitialProps({ req, res }) {
-    if (req && !req.user) {
-      res.redirect('/login');
-      return { purchasedBooks: [] };
+class IndexWithData extends React.Component {
+  // eslint-disable-next-line
+  state = {
+    books: [],
+  };
+
+  async componentDidMount() {
+    try {
+      const { books } = await getBookList();
+      this.setState({ books });
+    } catch (err) {
+      notify(err);
     }
-
-    const headers = {};
-    if (req && req.headers && req.headers.cookie) {
-      headers.cookie = req.headers.cookie;
-    }
-
-    const { purchasedBooks } = await getMyBookList({ headers });
-    return { purchasedBooks };
   }
 
   render() {
-    const { purchasedBooks } = this.props;
-
-    return (
-      <div>
-        <Head>
-          <title>My Books</title>
-        </Head>
-        <div style={{ padding: '10px 45px' }}>
-          {purchasedBooks && purchasedBooks.length > 0 ? (
-            <div>
-              <h3>Your books</h3>
-              <ul>
-                {purchasedBooks.map((book) => (
-                  <li key={book._id}>
-                    <Link
-                      as={`/books/${book.slug}/introduction`}
-                      href={`/public/read-chapter?bookSlug=${book.slug}&chapterSlug=introduction`}
-                    >
-                      <a>{book.name}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <div>
-              <h3></h3>
-              <p></p>
-              <Link as={`books/dummy-1/introduction`} href={`books/dummy-1/introduction`}>
-                <a></a>
-              </Link>
-              <Link href={`/index`}>
-              <p>Hi. I'm still working out what to do with these user homepages, but until then, click here to check out some stuff I made.</p>
-              </Link>
-            </div>
-          )}
-        </div>
-      </div>
-    );
+    return <Index {...this.state} />;
   }
 }
 
-MyBooks.propTypes = propTypes;
-MyBooks.defaultProps = defaultProps;
-
-export default withAuth(MyBooks);
+export default withAuth(IndexWithData, { adminRequired: true });

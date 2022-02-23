@@ -5,7 +5,7 @@ const frontmatter = require('front-matter');
 
 const generateSlug = require('../utils/slugify');
 // const Chapter = require('./Chapter');
-const Purchase = require('./Purchase');
+
 const User = require('./User');
 
 const { addToMailchimp } = require('../mailchimp');

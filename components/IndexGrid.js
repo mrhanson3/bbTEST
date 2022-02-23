@@ -40,16 +40,12 @@ function IndexGrid() {
           <Paper className={classes.paper} elevation={3}>Posted 4/10/21<CompassRose></CompassRose>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={5}>
           <Paper className={classes.paper} elevation={3}>Posted 3/2/21<ParisQ></ParisQ>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={5}>
+        <Grid item xs={12} sm={7}>
           <Paper className={classes.paper} elevation={3}>Posted 2/18/21<MISunrise></MISunrise>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper} elevation={3}>Posted 1/20/21<GamblingCard19></GamblingCard19>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6}>

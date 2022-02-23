@@ -46,9 +46,7 @@ class Index extends React.Component {
         <iframe src="https://public.tableau.com/shared/GQBNBXSPG?:display_count=y&:origin=viz_share_link?:showVizHome=no&:embed=true"
     width="1000px" height="1050px"></iframe>
         </div>
-        <div>
 
-        </div>
       </div>
     );
   }
