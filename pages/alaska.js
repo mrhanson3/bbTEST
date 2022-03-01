@@ -43,7 +43,7 @@ class Index extends React.Component {
           <Grid item xs={12} md={4}>
             <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#ffebe6', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Places to Eat</b></p>
             <p><a href="https://www.snowcitycafe.com/">Snow City</a> - Most famously, it’s where President Obama and his entourage bought the <a href="https://www.eater.com/2015/9/2/9245763/obama-buys-cafes-entire-supply-cinnamon-rolls-alaska">entire stock of cinnamon rolls. </a></p>
-            <p><a href="https://www.humpysalaska.com/">Humpy’s</a> - Try the Man vs Food Challenge! Or maybe <a href="https://www.humpysalaska.com/humpys-great-alaskan-alehouse-2">six of us can try it together.</a>(Scroll down a bit.)</p>
+            <p><a href="https://www.humpysalaska.com/">Humpy’s</a> - Try the Man vs Food Challenge! Or maybe <a href="https://www.humpysalaska.com/humpys-great-alaskan-alehouse-2">six of us can try it together.</a> (Scroll down a bit.)</p>
             <p><a href="https://www.49statebrewing.com/">49th State Brewing</a> - Some insight from Trip Advisor. <a href="https://www.tripadvisor.com/ShowUserReviews-g60880-d10024455-r829626665-49th_State_Brewing_Anchorage-Anchorage_Alaska.html"> Give Mitch a raise!!!</a></p>
             <p><a href="https://moosestooth.net/">Moose’s Tooth</a> - "This place is hella good" from <a href="https://www.yelp.com/biz/mooses-tooth-anchorage"> Daniel O. Pearl City, HI on Yelp.</a></p>
 
