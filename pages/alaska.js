@@ -27,13 +27,13 @@ class Index extends React.Component {
             <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#f2f2f2', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Itinerary</b></p>
             <p>Saturday, July 9 - Arrival day!</p>
 
-            <p>Sunday, July 10 - Free morning, welcome party at Cathy's house starting mid-afternoon</p>
+            <p>Sunday, July 10 - Free morning. Welcome party at Cathy's house starting mid-afternoon</p>
 
-            <p>Monday, July 11 - Trip to Girdwood to visit <a href="https://www.alaskawildlife.org/tours-programs/">Alaska Wildlife Conservation Center</a>,  <a href="https://girdwoodbrewing.com/welcome/">Girdwood Brewing</a>, stop at <a href="https://www.adfg.alaska.gov/index.cfm%3Fadfg%3Dviewinglocations.belugapoint">Beluga Point</a>, option to add on visit to <a href="https://www.alyeskaresort.com/">Alyeska Resort</a> for hiking/tram ride if open. </p>
+            <p>Monday, July 11 - Road trip to Girdwood to visit <a href="https://www.alaskawildlife.org/tours-programs/">Alaska Wildlife Conservation Center</a>,  <a href="https://girdwoodbrewing.com/welcome/">Girdwood Brewing</a>, and have lunch. Stop at <a href="https://www.adfg.alaska.gov/index.cfm%3Fadfg%3Dviewinglocations.belugapoint">Beluga Point</a> for scenic vistas. All ages. Option to add on visit to <a href="https://www.alyeskaresort.com/">Alyeska Resort</a> for hiking/tram ride if open. </p>
 
-            <p>Tuesday, July 12 - <a href="https://www.anchoragemuseum.org/">Anchorage museum </a>(with Discovery Center for kids). Possible pool with water slide, possible dinner at <a href="https://www.humpysalaska.com/">Humpy's.</a></p>
+            <p>Tuesday, July 12 - Morning: <a href="https://www.anchoragemuseum.org/">Anchorage museum </a>(with Discovery Center for kids). All ages. Afternoon: Possible <a href="https://www.muni.org/departments/parks/pages/westpool.aspx">pool with water slide</a>. All ages.</p>
 
-            <p>Wednesday, July 13 - EITHER trip to Eagle River, perhaps the <a href="https://www.alaska.org/detail/eagle-river-nature-center">nature center</a>, and hike on <a href="https://www.tripadvisor.com/Attraction_Review-g30982-d4299711-Reviews-Mt_Baldy-Eagle_River_Anchorage_Alaska.html">Baldy</a> OR Visit <a href=" https://www.alaskanative.net/">Alaska Native Heritage Center</a>. Optional hike on <a href="https://www.alaska.org/detail/flattop-mountain">Flat Top.</a></p>
+            <p>Wednesday, July 13 - Choose your adventure: Trip to Eagle River, perhaps the <a href="https://www.alaska.org/detail/eagle-river-nature-center">nature center</a>, and hike on <a href="https://www.tripadvisor.com/Attraction_Review-g30982-d4299711-Reviews-Mt_Baldy-Eagle_River_Anchorage_Alaska.html">Baldy</a>. Half-day. Best for adults. </p> <p>Or visit <a href=" https://www.alaskanative.net/">Alaska Native Heritage Center</a>. All ages. Half-day. Optional hike on <a href="https://www.alaska.org/detail/flattop-mountain">Flat Top.</a> Best for adults.</p>
 
             <p>Thursday, July 14 - Departure day</p>
 
