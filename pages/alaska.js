@@ -31,10 +31,9 @@ class Index extends React.Component {
 
             <p>Monday, July 11 - Trip to Girdwood to visit <a href="https://www.alaskawildlife.org/tours-programs/">Alaska Wildlife Conservation Center</a>,  <a href="https://girdwoodbrewing.com/welcome/">Girdwood Brewing</a>, stop at <a href="https://www.adfg.alaska.gov/index.cfm%3Fadfg%3Dviewinglocations.belugapoint">Beluga Point</a>, option to add on visit to <a href="https://www.alyeskaresort.com/">Alyeska Resort</a> for hiking/tram ride if open. </p>
 
-            <p>Tuesday, July 12 - <a href="https://www.anchoragemuseum.org/">Anchorage museum </a>(with Discovery Center for kids).</p>
-            <p>Possible pool with water slide, possible dinner at <a href="https://www.humpysalaska.com/">Humpy's.</a></p>
+            <p>Tuesday, July 12 - <a href="https://www.anchoragemuseum.org/">Anchorage museum </a>(with Discovery Center for kids). Possible pool with water slide, possible dinner at <a href="https://www.humpysalaska.com/">Humpy's.</a></p>
 
-            <p>Wednesday, July 13 - EITHER trip to Eagle River and hike on <a href="https://www.tripadvisor.com/Attraction_Review-g30982-d4299711-Reviews-Mt_Baldy-Eagle_River_Anchorage_Alaska.html">Baldy</a> OR Visit <a href=" https://www.alaskanative.net/">Alaska Native Heritage Center</a>. Optional hike on <a href="https://www.alaska.org/detail/flattop-mountain">Flat Top.</a></p>
+            <p>Wednesday, July 13 - EITHER trip to Eagle River, perhaps the <a href="https://www.alaska.org/detail/eagle-river-nature-center">nature center</a>, and hike on <a href="https://www.tripadvisor.com/Attraction_Review-g30982-d4299711-Reviews-Mt_Baldy-Eagle_River_Anchorage_Alaska.html">Baldy</a> OR Visit <a href=" https://www.alaskanative.net/">Alaska Native Heritage Center</a>. Optional hike on <a href="https://www.alaska.org/detail/flattop-mountain">Flat Top.</a></p>
 
             <p>Thursday, July 14 - Departure day</p>
 
@@ -43,10 +42,10 @@ class Index extends React.Component {
           </Grid>
           <Grid item xs={12} md={4}>
             <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#ffebe6', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Places to Eat</b></p>
-            <p><a href="https://www.snowcitycafe.com/">Snow City</a></p>
-            <p><a href="https://www.humpysalaska.com/">Humpy’s</a></p>
-            <p><a href="https://www.49statebrewing.com/">49th State Brewing</a></p>
-            <p><a href="https://moosestooth.net/">Moose’s Tooth</a></p>
+            <p><a href="https://www.snowcitycafe.com/">Snow City</a> - Most famously, it’s where President Obama and his entourage bought the <a href="https://www.eater.com/2015/9/2/9245763/obama-buys-cafes-entire-supply-cinnamon-rolls-alaska">entire stock of cinnamon rolls. </a></p>
+            <p><a href="https://www.humpysalaska.com/">Humpy’s</a> - Try the Man vs Food Challenge! Or maybe <a href="https://www.humpysalaska.com/humpys-great-alaskan-alehouse-2">six of us can try it together.</a></p>
+            <p><a href="https://www.49statebrewing.com/">49th State Brewing</a> - Some insight from Trip Advisor. <a href="https://www.tripadvisor.com/ShowUserReviews-g60880-d10024455-r829626665-49th_State_Brewing_Anchorage-Anchorage_Alaska.html"> Give Mitch a raise!!!</a></p>
+            <p><a href="https://moosestooth.net/">Moose’s Tooth</a> - "This place is hella good" from <a href="https://www.yelp.com/biz/mooses-tooth-anchorage"> Daniel O. Pearl City, HI on Yelp.</a></p>
 
             </Paper>
           </Grid>
@@ -61,6 +60,7 @@ class Index extends React.Component {
           <Grid item xs={12} md={6}>
           <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#ffffb3', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Things to Do</b></p>
           <p>Walk/Bike <a href="https://anchoragecoastaltrail.com">Tony Knowles Coastal Trail</a></p>
+          <p>Play on the sand dunes at <a href="https://www.alaska.org/detail/kincaid-park">Kincaid Park</a></p>
           </Paper>
           </Grid>
           <Grid item xs={12} md={10}>
