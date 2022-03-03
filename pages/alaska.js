@@ -58,14 +58,18 @@ class Index extends React.Component {
           </Paper>
           </Grid>
           <Grid item xs={12} md={6}>
-          <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#ffffb3', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Things to Do</b></p>
-          <p>Walk/Bike <a href="https://anchoragecoastaltrail.com">Tony Knowles Coastal Trail</a></p>
-          <p>Play on the sand dunes at <a href="https://www.alaska.org/detail/kincaid-park">Kincaid Park</a></p>
+          <Paper style={{ padding: '10px' }}><p style={{ backgroundColor: '#F9A825', borderStyle: 'solid', padding: '10px', borderWidth: '1px', textAlign: 'center' }}><b>Things to Do</b></p>
+              <p>Walk/Bike <a href="https://anchoragecoastaltrail.com">Tony Knowles Coastal Trail</a></p>
+              <p>Play on the sand dunes at <a href="https://www.alaska.org/detail/kincaid-park">Kincaid Park</a></p>
+              <p><a href="https://www.alaska.org/detail/the-bait-shack">Rent fishing equipment</a> and fish in the river</p>
+              <p><a href="https://www.pablobicyclerentals.com/">Rent a bike</a></p>
+              <p>Visit <a href="http://www.wavebooks.com/">Title Wave books</a> - one of the biggest used bookstores in the country and Alaska’s biggest bookstore</p>
+              <p>Visit <a href="https://skinnyraven.com/">Skinny Raven</a> - Awesome specialty running store</p>
           </Paper>
           </Grid>
           <Grid item xs={12} md={10}>
           <p>See the little arrow button on the top left next to my pic, click it. Then you can see the names of the places.</p>
-          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1A8-uJV7JH727WK-0mVbBZaMpZyaRsHoP&ehbc=2E312F" width="840" height="480"></iframe>
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1A8-uJV7JH727WK-0mVbBZaMpZyaRsHoP&ehbc=2E312F" width="80%" height="480"></iframe>
           </Grid>
         </Grid>
 
