@@ -13,7 +13,7 @@ class Index extends React.Component {
 
       <div style={{ padding: '10px 45px' }}>
         <Head>
-          <title>Index</title>
+          <title>Alaska</title>
           <meta name="description" content="List of purchased books." />
         </Head>
         <Link href="/">
