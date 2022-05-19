@@ -33,7 +33,7 @@ class Index extends React.Component {
           <title>Index</title>
           <meta name="description" content="List of purchased books." />
         </Head>
-        <h3>This is going to be the catch all for things I remember, things I've learned and things I like.</h3>
+        <h3>This is going to be the catch all for things I've done, things I've learned and things I like.</h3>
         <p>
           Email:&nbsp;
           {user.email}
