@@ -9559,10 +9559,10 @@ react-overlays@^4.1.0:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-player@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.6.2.tgz#d41fe842f5bd6a2b1d3ce1ba9ed82c3eb26e0df4"
-  integrity sha512-Wi9DynNSVgddKxac5OzsH0Upk6VRYssvLLGgCRw6vsjzqMX6S5N26WDRNYnLaHykxFNtpPSDc53fXDe52hMaCg==
+react-player@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.10.1.tgz#f2ee3ec31393d7042f727737545414b951ffc7e4"
+  integrity sha512-ova0jY1Y1lqLYxOehkzbNEju4rFXYVkr5rdGD71nsiG4UKPzRXQPTd3xjoDssheoMNjZ51mjT5ysTrdQ2tEvsg==
   dependencies:
     deepmerge "^4.0.0"
     load-script "^1.0.0"
